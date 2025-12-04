@@ -1,0 +1,30 @@
+name: habit_tracker
+description: "Трекер привычек"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1 
+
+flutter_icons:
+  android: true
+  image_path: "assets/icon/icon.png"
+  
+flutter:
+  uses-material-design: true
+  
